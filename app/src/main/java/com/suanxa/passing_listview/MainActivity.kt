@@ -26,5 +26,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, list::class.java)
             startActivity(intent)
         }
+        val tombol3: Button = findViewById(R.id.pil3)
+        tombol3.setOnClickListener {
+            val intent = Intent(this, recycle_view::class.java)
+            startActivity(intent)
+        }
+
     }
 }
