@@ -32,5 +32,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val tombol4: Button = findViewById(R.id.pil4)
+        tombol4.setOnClickListener {
+            val intent = Intent(this, customimage_rv::class.java)
+            startActivity(intent)
+        }
+
     }
 }

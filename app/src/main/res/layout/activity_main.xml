@@ -48,4 +48,11 @@
         android:layout_height="wrap_content"
         android:text="Recycle View" />
 
+    <Button
+        android:id="@+id/pil4"
+        android:backgroundTint="#123456"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycle View Image" />
+
 </LinearLayout>
